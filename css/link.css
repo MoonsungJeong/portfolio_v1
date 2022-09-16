@@ -1,0 +1,34 @@
+.link-container{
+    position: relative;
+    top:7rem;
+}
+.link-menu{
+    display:flex;
+    justify-content: center;
+}
+.link-menu a{
+    color:#ffffff;
+    font-size:1.3rem;
+}
+.link-item{
+    margin: 0 0.8rem;
+}
+.link-animation{
+    position: relative;
+}
+.link-animation::after{
+    position: absolute;
+    top:100%;
+    left:0;
+    width: 100%;
+    height:4px;
+    background:rgb(250, 216, 179);
+    content:"";
+    opacity: 0;
+    transition:opacity 0.3s, transform 0.3s;
+    transform: translateY(10px);
+}
+.link-animation:hover::after{
+    opacity: 1;
+    transform: translateY(2px);
+}

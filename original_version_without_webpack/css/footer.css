@@ -1,0 +1,19 @@
+.footer-container{
+    position: relative;
+    top:93%;
+    width:100%;
+    padding:0;
+    overflow-x: hidden;
+    margin:0;
+    margin-top: -0.4rem;
+    background: rgba(5,39, 76, 1);
+    display:flex;
+}
+.foot-item{
+    padding: 0.9rem;
+    min-width:100%;
+    text-align: center;
+}
+.foot-item a{
+    color:#ffffff;
+}

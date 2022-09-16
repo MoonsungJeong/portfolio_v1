@@ -1,0 +1,13 @@
+.home-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:85vh;
+    text-align: center;
+    color:#ffffff;
+}
+.home-name{
+    font-size:1.8rem;
+    font-weight: bold;
+    margin:1.6rem auto;
+}

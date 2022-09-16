@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="test3_style.css">
+        <script src="https://kit.fontawesome.com/23c505e967.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="header-bar">
+                    <div class="menu-button">
+                        <span id="first" class="menu-bar"></span>
+                        <span id="second" class="menu-bar"></span>
+                        <span id="third" class="menu-bar"></span>
+                        <span id="fourth" class="menu-bar"></span>
+                    </div>
+                    <h1 class="logo">
+                        <a href="/">Moonsung</a>
+                    </h1>
+                </div>
+                <div class="nav-container">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#" onclick="onNavigate('/'); return false;">Home</a></li>
+                        <li class="nav-item"><a href="#" onclick="onNavigate('/About'); return false;">About</a></li>
+                        <li class="nav-item"><a href="#" onclick="onNavigate('/Portfolio'); return false;">Portfolio</a></li>
+                        <li class="nav-item drop-btn"><a href="#" onclick=" return false;">More...</a>
+                            <ul class="drop-menu">
+                                <li class="nav-item"><a href="#" onclick="onNavigate('/Contact'); return false;">Contact</a></li>
+                                <li class="nav-item"><a href="#" onclick="onNavigate('/CV'); return false;">CV</a></li>
+                                <li class="nav-item"><a href="#" onclick=" return false;">Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <script src="test3_function.js"></script>
+    </body>
+</html>

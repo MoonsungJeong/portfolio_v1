@@ -1,0 +1,98 @@
+.cv{
+    background:#ebebeb;
+}
+.cv-side{
+    width:100%;
+    float:left;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+    background: #2BADDB;
+}
+.profile-picture{
+    max-width: 100%;
+}
+.cv-side h3{
+    flex:0 0 100%;
+    margin: 10px 5px 5px 5px;
+    font-weight: 600;
+    font-size:1.8rem;
+    color:#ffffff;
+}
+.cv-side .side-panel{
+    display:flex;
+    align-items: center;
+    padding: 0.5rem;
+    color:#ffffff;
+}
+.cv-side .side-panel a{
+    color:#ffffff;
+    text-decoration: underline;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.cv-side .side-panel .side-panel-content{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height:3rem;
+}
+.cv-side .bio-panel{
+    display:flex;
+    flex-direction: column;
+    padding-top: 0;
+    background: hsla(0,0%,100%,0.4);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+}
+.bio-panel .side-panel-icon i{
+    width: 3rem;
+}
+.bio-panel-content{
+    margin-right:0.5rem;
+    margin-bottom: 0.5rem;
+}
+.side-panel-icon{
+    align-self:flex-start;
+    display:block;
+    width: 3rem;
+    font-size:2rem;
+    margin:0 5px;
+}
+.cv-container{
+    padding:2rem;
+    display:flex;
+    flex-direction: column;
+}
+.section-card{
+    padding: 1rem;
+    margin-top:1rem;
+    margin-bottom: 1.5rem;
+    background:#ffffff;
+    box-shadow:0 -1px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24);
+    border-radius:2px;
+}
+.cv-container h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #a2a4a5;
+}
+.section-card h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color:#2c3e50;
+    margin-bottom: 0.4rem;
+}
+.section-card .date-subtitle{
+    font-size: 0.8rem;
+    color:#a2a4a5;
+}
+.section-card p{
+    color:#2c3e50;
+    text-align: left;
+    margin: 1rem 0;
+}
+@media (min-width:650px){
+    .cv-side{
+        width:25%;
+    }
+}
